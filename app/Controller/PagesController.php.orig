@@ -46,10 +46,12 @@ class PagesController extends AppController {
  */
 	public function display() {
 		$path = func_get_args();
+<<<<<<< HEAD
 		echo "hey";
 		echo "hicup";
+=======
 		echo "hii";
-
+>>>>>>> pravu
 		$count = count($path);
 		if (!$count) {
 			return $this->redirect('/');
