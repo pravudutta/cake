@@ -50,6 +50,7 @@ class PagesController extends AppController {
 		echo "hicup";
 		echo "hii";
 
+
 		$count = count($path);
 		if (!$count) {
 			return $this->redirect('/');
