@@ -48,6 +48,9 @@ class PagesController extends AppController {
 		$path = func_get_args();
 		echo "hey";
 		echo "hicup";
+
+		echo "hii";
+
 		$count = count($path);
 		if (!$count) {
 			return $this->redirect('/');
